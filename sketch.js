@@ -8,12 +8,12 @@ localStorage["HighestScore"] = 0;
 var obstacle,obstacleImg;
 
 function preload(){
-    sabrina_animation=loadAnimation('sprites/1.png','sprites/2.png','sprites/3.png','sprites/4.png','sprites/5.png','sprites/6.png');
-    sabrina_collided=loadAnimation('sprites/2.png');
-    bgImg=loadImage('sprites/bg.png');
-    obstacleImg=loadImage('sprites/obss.png');
-    gameOverImg=loadImage('sprites/gameover.png');
-    restartImg=loadImage('sprites/reset.png');
+    sabrina_animation=loadAnimation('Sprites/1.png','Sprites/2.png','Sprites/3.png','Sprites/4.png','Sprites/5.png','Sprites/6.png');
+    sabrina_collided=loadAnimation('Sprites/2.png');
+    bgImg=loadImage('Sprites/bg.png');
+    obstacleImg=loadImage('Sprites/obss.png');
+    gameOverImg=loadImage('Sprites/gameover.png');
+    restartImg=loadImage('Sprites/reset.png');
 }
 
 function setup(){
